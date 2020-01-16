@@ -13,4 +13,5 @@
 ## Parte II. - Introducción General GIT
 4. Realice el tutorial de Markdown disponible en: [HAGA CLICK AQUI](https://commonmark.org/help/tutorial/)
 
-![](https://commonmark.org/help/images/favicon.png)
+![Screenshot (1)](https://user-images.githubusercontent.com/50029247/72534611-1ab21a00-3845-11ea-8650-cdef0434b0b9.png)
+
