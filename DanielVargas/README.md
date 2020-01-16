@@ -18,5 +18,6 @@
 6. Cree un archivo Readme en formato Markdown en su carpeta donde incluya su nombre, datos básicos, plan de estudios, etc. Agregue cualquier información que desee mostrar acerca de usted.
 
   ### Datos basicos:
-    -**Nombres**: Daniel
-    -**Apellidos** : Vargas Ordoñez
+   * **Nombres** : Daniel
+   * **Apellidos** : Vargas Ordoñez
+   * **Edad** : 22 años 4 meses 28 dias
