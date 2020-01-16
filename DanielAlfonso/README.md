@@ -29,3 +29,27 @@ Esta linea mezcla como tal todo lo que vemos en la carrera, me gustaria encontra
 
 Mi bicicleta favorita es esta: 
 ![](https://www.ciclismoafondo.es/media/cache/big/upload/images/article/14108/article-prueba-bicicleta-pinarello-dogma-f10-5978b5d53dc0f.jpg)
+
+#### En este codigo podemos observar el patron Singleton 
+
+```
+public class Singleton {
+ 
+     static private Singleton singleton = null;
+ 
+     private Singleton() { }
+ 
+     static public Singleton getSingleton() {
+ 
+         if (singleton == null) {
+             singleton = new Singleton();
+         }
+         return singleton;\\
+     }
+ 
+     public String metodo() {\\
+         return "Singleton instanciado bajo demanda";
+     }
+ 
+ }
+ ```
