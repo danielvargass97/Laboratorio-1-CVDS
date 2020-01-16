@@ -15,3 +15,6 @@
 
 ![Screenshot (1)](https://user-images.githubusercontent.com/50029247/72534611-1ab21a00-3845-11ea-8650-cdef0434b0b9.png)
 
+6. Cree un archivo Readme en formato Markdown en su carpeta donde incluya su nombre, datos básicos, plan de estudios, etc. Agregue cualquier información que desee mostrar acerca de usted.
+
+   ### Datos basicos:
