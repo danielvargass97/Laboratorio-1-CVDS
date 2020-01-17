@@ -10,12 +10,14 @@ Experiencia en gestión comercial y administrativa. Con competencias en relacion
    - Carnet  :  2105516
    - Correo : juan.ortiz-m@mail.escuelaing.edu.co
    - Universidad : Escuela Colombiana de Ingenieria Julio Garavito
+   - Carrera : Ing. Sistemas
    - Semestre : 9
    - Facebook : [Perfil](https://es-la.facebook.com/juancamilo.ortizmedina)
  
 
 ## Materias Inscritas | Plan de Estudios 
 **Plan de estudios : 14**
+
  	1. Ciclos de Vida y Desarrollo de Software
 	2. Seminario de Insercion Laboral
 	3. Seguridad Privacidad en Tecnologias de Informacion
@@ -32,4 +34,20 @@ Experiencia en gestión comercial y administrativa. Con competencias en relacion
 
 ## Frase favorita
 > Aprende a no rendirte y sé constante, el principio es la parte más difícil.
+
+## Patron bridge
+El patrón Bridge, también conocido como Handle/Body, es una técnica usada en programación para desacoplar una abstracción de su implementación, de manera que ambas puedan ser modificadas independientemente sin necesidad de alterar por ello la otra.
+
+```
+/** aplicacion que usa el patrón Bridge **/
+public class EjemploBridge {
+    public static void main(String[] args) {
+        Abstraccion[] abstracciones = new Abstraccion[2];
+        abstracciones[0] = new AbstraccionRefinada(new ImplementacionA());
+        abstracciones[1] = new AbstraccionRefinada(new ImplementacionB());
+        for(Abstraccion abstraccion:abstracciones)
+            abstraccion.operacion();
+    }
+}
+```
 
