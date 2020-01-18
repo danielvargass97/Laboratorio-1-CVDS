@@ -7,7 +7,7 @@ Experiencia en gestión comercial y administrativa. Con competencias en relacion
 
 ## Datos Personales
    - Contacto : 310 767 0270
-   - Carnet  :  2105516
+   - Carné  :  2105516
    - Correo : juan.ortiz-m@mail.escuelaing.edu.co
    - Universidad : Escuela Colombiana de Ingenieria Julio Garavito
    - Carrera : Ing. Sistemas
@@ -53,7 +53,7 @@ public class EjemploBridge {
 
 ## [learngitbranching](https://learngitbranching.js.org/)
 ### MAIN
-![Main](https://imgur.com/JWgyQ2a)
+![Main](https://i.imgur.com/JWgyQ2a.png)
 ### REMOTE
-![Remote](https://imgur.com/jq1JOlo)
+![Remote](https://i.imgur.com/jq1JOlo.png)
 
