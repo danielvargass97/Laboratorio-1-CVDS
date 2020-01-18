@@ -51,9 +51,9 @@ public class EjemploBridge {
 }
 ```
 
-## [learngitbranching](https://learngitbranching.js.org/)
-### MAIN
-![Main](https://i.imgur.com/JWgyQ2a.png)
-### REMOTE
-![Remote](https://i.imgur.com/jq1JOlo.png)
+## [Learngitbranching](https://learngitbranching.js.org/)
+### Main
+![Main](https://imgur.com/rhSHIjU)
+### Remote
+![Remote](https://imgur.com/SVe0GHh)
 
