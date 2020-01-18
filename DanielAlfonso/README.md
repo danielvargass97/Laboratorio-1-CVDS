@@ -53,3 +53,14 @@ public class Singleton {
  
  }
  ```
+ 
+ # Parte III. - GIT Branching
+ ## Pantallazo Git Main: 
+ 
+![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/gitMain.jpg)
+
+## Pantallazos Git Remote: 
+
+![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/gitRem.jpg)
+
+![](https://github.com/DanielAlfonso17/CNYT-2019-2/blob/master/gitRem1.jpg)
