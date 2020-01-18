@@ -1,0 +1,137 @@
+Crea una rama
+
+	git branch <nameBranch>
+
+Cambiar de rama
+
+	git checkout <nameBranch/tagname>
+
+Unir dos ramas (Un commit nuevo con dos commit padres y sus antecesores)
+
+	git merge <nameBranch>
+
+Une el branch actual con el master, esto no se puede ver como un merge (agarra un conjunto de commits, los "copia", y los aplica sobre algún otro lado.)
+
+	git rebase <nameBranch>
+
+Cambiar head a un commit o una rama
+
+	git checkout <nameBranch/commit>
+
+
+Cambiar head al commit anterior , entre más ^ (Antecesores)
+
+	git checkout <nameBranch^>
+
+
+Referencias relativas --> Identificador 
+
+Reasignar una rama a un commit especifico ~ (Cantidad de commit antes de HEAD)
+git branch -f master HEAD~3
+
+Muestra los logs de los commits
+
+	git log 
+
+Revertir cambios en git tiene tanto un componente de :
+- bajo nivel (indexar archivos o fragmentos individualmente)  
+- alto nivel (cómo son efectivamente revertidos los cambios)
+git reset <commit> (deshace el ultimo cambio)  (Rama local)
+gir revert (rama remota) c'(Copia)
+
+
+Quiero copiar una serie de commits sobre tu ubicación actual (HEAD).
+git cherry-pick <Commit1> <Commit2> <...>
+
+
+rebase interactivo 
+- Se puede usar el comando "pick" para ignorar
+- Re ordenarlos al gusto con el archivo VI.
+- squashear commits (Combinar varios commits en uno solo)
+
+	git rebase -i HEAD~4
+
+commit --amend (Si la confirmación solo existe en su repositorio local y no se ha enviado a GitHub, puede modificar el mensaje de confirmación)
+
+Crear tag Commit, que es nuestro prototipo de la version 1. (Para luego hacerle checkout)
+git tag v1 <commit>
+
+
+git describe <nameBranch> 
+Salida : <tag>_<numCommits>_g<hash>
+Donde tag es el tag más cercano en la historia, numCommits dice a cuántos commits de ese tag estás, y <hash> es el hash del commit que estás describiendo.
+
+
+
+git checkout master^ (Primer padre)
+git checkout master^2 (Segundo padre)
+
+
+git checkout HEAD~; git checkout HEAD^2; git checkout HEAD~2
+git checkout HEAD~^2~2
+
+
+GIT REMOTOS
+
+Primero y principal, los remotos ¡son un genial backup! Los repositorios locales de git tienen la habilidad de restaurar archivos a un estado previo (como ya sabés), pero toda esa información está almacenada localmente. Al tener copias de tu repositorio git en otras computadoras, podés perder todos tus datos locales y aún así retomar de donde habías dejado.
+
+Más importante, ¡los remotos sociabilizan la programación! Ahora que hay una copia de tu proyecto hosteada en otro lugar, tus amigos pueden contribuir a tu proyecto (o bajarse los últimos cambios) de un modo muy sencillo.
+
+clona el repositorio 
+git clone
+
+
+o/master, el nombre de la rama es master, y el nombre del remoto es o. (Al hacer git clone se crea un Origin)
+
+Verifica cambios en el repositorio online con el local
+git fetch <link git>
+
+(esencialmente sincroniza nuestra representación local del repositorio remoto con el verdadero estado del repositorio remoto)	
+
+git fakeTeamwork
+Busca los cambios nuevos y actualiza el repositorio (Es como un fecth y un merge)
+
+git pull origin <nameBranch> 
+
+
+Simular trabajo de un compañero
+git fakeTeamwork foo 3 (<foo> rama y  <3> la cantidad de commits)
+
+git push (compartir cambios)
+
+
+git fetch; git merge o/master; git push
+git pull --rebase; git push
+git pull ; git push
+
+
+Rebasear:
+Pros:
+- Rebasear hace que tu árbol de commits se vea bastante limpio, porque todos los commits siguen una única línea
+Contras:
+- Rebasear modifica la historia (aparente) de tu árbol de commits.
+
+
+La rama master está configurada para trackear o/master -- osea, que hay un objetivo implícito para el merge y un destino implícito para de la rama master.
+
+
+	trackear remotos
+(Crea una nueva rama llamada absolutamenteNoEsMaster y la hace trackear a o/master.)
+git checkout -b side o/master
+
+git branch -u o/master foo
+
+(git push <remoto> <lugar>) - le dijimos a git de dónde traer los commits, y a dónde mandarlos
+git push origin master
+
+git push origin foo^:master (Especificar los commits)
+git push origin foo^:newBranch
+
+(jalar con fetch de un lado a otro)
+git fetch origin master~1:foo 
+("la nada" como un origen)
+git push origin :side (Eliminar la especificada)
+git fetch origin :bar (Crear una nueva)
+
+git pull origin master (Tambien se puede hacer así el pull)
+git pull origin master:foo ( hace el pull y crea una nueva rama)
