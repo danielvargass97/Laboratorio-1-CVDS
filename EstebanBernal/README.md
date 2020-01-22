@@ -58,3 +58,8 @@ public class Ingreso {
       
 ## Laboratorio 1 CVDS PARTE 3
 
+   + **Ejercicios completos sesion MAIN**
+![image](https://user-images.githubusercontent.com/54051399/72932357-9de3dc00-3d2d-11ea-8b62-cd9861c2653c.png)
+
+   + **Ejercicios completos sesion REMOTE**
+![image](https://user-images.githubusercontent.com/54051399/72936562-70029580-3d35-11ea-9fba-fa743234b53d.png)
