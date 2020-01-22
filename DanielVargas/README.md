@@ -20,4 +20,12 @@
   ### Datos basicos:
    * **Nombres** : Daniel
    * **Apellidos** : Vargas Ordoñez
-   * **Edad** : 22 años 4 meses 28 dias
+   * **Edad** : 22 años
+   * **RH** : o+
+   * **Correo** : daniel.vargas-o@mail.escuelaing.edu.co
+   * **Fecha de nacimiento** : 28 de agosto de 1997
+  ### Formacion academica:
+   * **Carrera** : Ingenieria de sistemas
+   * **Universidad** : Escuela colombiana de ingenieria
+   * **Semestre** : Septimo (7)
+   * **Plan de estudios** :
