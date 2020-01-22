@@ -24,8 +24,25 @@
    * **RH** : o+
    * **Correo** : daniel.vargas-o@mail.escuelaing.edu.co
    * **Fecha de nacimiento** : 28 de agosto de 1997
+   * **Hobbies** :
+     1. Futbol sala
+     2. Cine
+     3. Juegos de pc/movil
+     4. Redes sociales
+     5. Dormir
+     6. Programar:
+         ```
+         def main():
+            print('Hello world.')
+         main()
+         ```    
   ### Formacion academica:
    * **Carrera** : Ingenieria de sistemas
    * **Universidad** : Escuela colombiana de ingenieria
    * **Semestre** : Septimo (7)
-   * **Plan de estudios** :
+   * **Plan de estudios** : ![plan de estudios](https://user-images.githubusercontent.com/50029247/72921357-1b512180-3d19-11ea-9e64-dff0d815ca4e.png)
+   ## Parte III. - GIT Branching1. 
+   1. Ingrese a la página web: https://learngitbranching.js.org/
+   2. Complete todos los ejercicios de dicha página Web (tanto de la sección "Main" como "Remote").
+   3. Realice las 2 capturas de pantalla necesarias, donde se vean finalizados todos los nodos de cada sección. Se debe también visualizar la fecha y hora de finalizado junto con el nombre / carné de la persona que toma la captura.
+   4. Agregue las imágenes en el Readme de su carpeta de forma que sean visibles desde el repositorio.
