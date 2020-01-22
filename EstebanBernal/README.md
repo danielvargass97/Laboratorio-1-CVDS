@@ -6,7 +6,10 @@
       * e-mail : esteban020300@outlook.es 
       
    Uno de mis gustos más grandes son los deportes sobretodo el futbol, me gusta mucho practicarlo asi como el ciclismo también, por otro lado me gusta trabajar en equipo y en cuanto a la parte laboral me gustaria especializarme en la parte de seguridad informatica.
-   **Fragmento de cogido**
+   
+   
+   **Fragmento de codigo**
+   
    Acá podemos encontrar un fragmento de código sobre como crear un objeto en java, en este caso un objeto tipo cuenta:
    ```
 public class Ingreso {
