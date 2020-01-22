@@ -46,3 +46,6 @@
    2. Complete todos los ejercicios de dicha página Web (tanto de la sección "Main" como "Remote").
    3. Realice las 2 capturas de pantalla necesarias, donde se vean finalizados todos los nodos de cada sección. Se debe también visualizar la fecha y hora de finalizado junto con el nombre / carné de la persona que toma la captura.
    4. Agregue las imágenes en el Readme de su carpeta de forma que sean visibles desde el repositorio.
+![Main](https://user-images.githubusercontent.com/50029247/72933092-0bdcd300-3d2f-11ea-86c9-db5d7c3f6d5d.png)
+![remote](https://user-images.githubusercontent.com/50029247/72933100-10a18700-3d2f-11ea-8336-9e9719dfa8ac.png)
+
