@@ -6,6 +6,22 @@
       * e-mail : esteban020300@outlook.es 
       
    Uno de mis gustos más grandes son los deportes sobretodo el futbol, me gusta mucho practicarlo asi como el ciclismo también, por otro lado me gusta trabajar en equipo y en cuanto a la parte laboral me gustaria especializarme en la parte de seguridad informatica.
+   **Fragmento de cogido**
+   Acá podemos encontrar un fragmento de código sobre como crear un objeto en java, en este caso un objeto tipo cuenta:
+   ```
+public class Ingreso {
+ 
+     public static void main (String args[]) {
+      
+      Cuenta primera_cuenta;
+      Cuenta primera_cuenta = new Cuenta();
+      primera_cuenta.ingresar(100.00);
+      
+     }
+ 
+ }
+ ```
+   
    - **Datos universitarios**
       * Escuela Colombiana de Ingenieria Julio Garavito - Ingeniera de Sistemas
       * Septimo semestre
@@ -23,7 +39,15 @@
    <https://commonmark.org/help/tutorial/>
    
    
-   Para relaizarlo tienes que seguir los siguientes pasos:
-      1. 
+   Para realizarlo tienes que seguir los siguientes pasos:
    
+       1) Ingresa al siguiente link : <https://commonmark.org/help/tutorial/>
+       2) Inicias el curso dando click donde dice *BEGIN LESSON*
+       3) Luego encontraras los instructivos en los siguientes puntos:
+   ![1](https://user-images.githubusercontent.com/54051399/72924999-f4e2b480-3d1f-11ea-9e39-166d377dbe59.PNG)
+      
+       4) Después de esto encontraras unos ejercicios que debes realizar que son bastante sencillos
+       5) Tendrás que realizar estos 4 pasos anteriores 11 veces para completar todas las lecciones y listo, tendras tu curso en MarkDown.
+   
+   ![ads](https://user-images.githubusercontent.com/54051399/72928415-f31bef80-3d25-11ea-9dcd-b8bb06fe6725.PNG)
       
